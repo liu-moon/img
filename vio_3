@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-14T13:36:07.078Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kNijlx0xqLtFOii7g4XK" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-14T13:39:37.319Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GPJvp1_3XvZFqV3LkMT7" version="24.2.5" type="github">
   <diagram name="Page-1" id="og_7RkjojTKwiDVEogY5">
-    <mxGraphModel dx="759" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1084" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,14 @@
         </mxCell>
         <mxCell id="UoVrW1R8TAWnN5SgWMx2-10" value="构造函数&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;列表初始化：给类型为ProblemType的成员变量problemType_赋值为problemType&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="310" y="720" width="790" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Problem&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;LogoutVectorSize&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;() {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;    // LOG(INFO) &amp;lt;&amp;lt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;    //           &quot;1 problem::LogoutVectorSize verticies_:&quot; &amp;lt;&amp;lt; verticies_.size() &amp;lt;&amp;lt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;    //           &quot; edges:&quot; &amp;lt;&amp;lt; edges_.size();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" link="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Problem&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;LogoutVectorSize&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;() {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;    // LOG(INFO) &amp;lt;&amp;lt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;    //           &quot;1 problem::LogoutVectorSize verticies_:&quot; &amp;lt;&amp;lt; verticies_.size() &amp;lt;&amp;lt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;    //           &quot; edges:&quot; &amp;lt;&amp;lt; edges_.size();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" id="UoVrW1R8TAWnN5SgWMx2-11">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="295" y="1000" width="560" height="160" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="UoVrW1R8TAWnN5SgWMx2-12" value="日志打印Vector大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="310" y="960" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
