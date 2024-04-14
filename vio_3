@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-14T13:43:25.640Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="iXsJ4RgmNzKveGJHo08-" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-14T13:45:07.326Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="SgzDAGzVSBgJsu6ff3M9" version="24.2.5" type="github">
   <diagram name="Page-1" id="og_7RkjojTKwiDVEogY5">
     <mxGraphModel dx="1084" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,6 +62,18 @@
         </mxCell>
         <mxCell id="UoVrW1R8TAWnN5SgWMx2-14" value="定义哈希定点的数据类型：为map类型，键为unsigned long, key为指向 Vertex 对象的智能指针&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="314" y="1190" width="860" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UoVrW1R8TAWnN5SgWMx2-15" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;HashVertex&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;verticies_marg_&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1360" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UoVrW1R8TAWnN5SgWMx2-16" value="在类的内部定义了类型为HashVertex类型的成员 verticies_marg_" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1310" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UoVrW1R8TAWnN5SgWMx2-17" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;verticies_marg_&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;clear&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;();&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1480" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UoVrW1R8TAWnN5SgWMx2-18" value="清空verticies_marg_成员" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1430" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
