@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T02:23:50.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Bv4GRNhGOldlDoplCExW" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T02:26:26.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="VfIcu2GnFw0axDxNkBj7" version="24.2.5" type="github">
   <diagram name="Page-1" id="og_7RkjojTKwiDVEogY5">
-    <mxGraphModel dx="712" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1539" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,6 +152,45 @@
         </mxCell>
         <mxCell id="4udD0CcKos3EuvMQMv_R-21" value="不知道干啥的" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="345" y="4850" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-22" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="4676" width="50" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-23" value="整个信息矩阵" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="4783" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-24" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 27px;&quot;&gt;MatXX &lt;span style=&quot;color: #9cdcfe;&quot;&gt;H_prior_&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="4970" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-26" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 27px;&quot;&gt;VecX &lt;span style=&quot;color: #9cdcfe;&quot;&gt;b_prior_&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="5054" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-27" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 27px;&quot;&gt;MatXX &lt;span style=&quot;color: #9cdcfe;&quot;&gt;Jt_prior_inv_&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5144" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-28" value="行列动态矩阵" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="155" y="5010" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-29" value="n列1列" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5094" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-32" value="不知道干啥的" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="414" y="5149" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-33" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="4970" width="50" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-34" value="先验部分信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="5115" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-35" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 27px;&quot;&gt;&lt;div style=&quot;line-height: 27px;&quot;&gt;VecX &lt;span style=&quot;color: #9cdcfe;&quot;&gt;err_prior_&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="5244" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-36" value="行列动态矩阵" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5194" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4udD0CcKos3EuvMQMv_R-38" value="n列1列" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5294" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
