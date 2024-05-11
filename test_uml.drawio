@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T08:02:10.764Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8G4sRSTJczVdk-b33Ac0" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T08:02:30.526Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="PqpdVmV5kJRMtMtd6s25" version="24.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="683" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="997" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -172,6 +172,9 @@
         </mxCell>
         <mxCell id="TiM2d6CwaubQ9dYnSy1R-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.737;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TiM2d6CwaubQ9dYnSy1R-80" target="TiM2d6CwaubQ9dYnSy1R-67">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TiM2d6CwaubQ9dYnSy1R-88" value="子类继承了父类的所有属性和方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="1138" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
