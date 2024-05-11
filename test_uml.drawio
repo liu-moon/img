@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T08:17:04.001Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="R3mG-7WXn3wi5x3G-nmO" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T08:17:39.270Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="HyKwhuW_RL86_CU-3hc9" version="24.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="683" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -376,8 +376,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TiM2d6CwaubQ9dYnSy1R-155" value="0..1 0到1（可选）&lt;br&gt;n 任意指定的数量&lt;div&gt;0..* 0到多&lt;/div&gt;&lt;div&gt;1..* 1到多&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="2198" width="120" height="70" as="geometry" />
+        <mxCell id="TiM2d6CwaubQ9dYnSy1R-155" value="0..1 0到1（可选）&lt;br&gt;n 任意指定的数量&lt;div&gt;0..* 0到多&lt;/div&gt;&lt;div&gt;1..* 1到多&lt;/div&gt;&lt;div&gt;m..n m到n&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="95" y="2223" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
