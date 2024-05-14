@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T07:00:10.008Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="KqJjlQraIFjqQMSItfRY" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T07:04:39.500Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="xbeQrCAtC44uuSUN9i-1" version="24.4.0" type="github">
   <diagram name="第 1 页" id="bM_YzEPKVhjKxQ4yJB-c">
     <mxGraphModel dx="358" dy="470" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,6 +143,15 @@
         </mxCell>
         <mxCell id="C5Aed3e3U2DgfZNWrXDW-10" value="TypeInfo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="C5Aed3e3U2DgfZNWrXDW-2">
           <mxGeometry y="112" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C5Aed3e3U2DgfZNWrXDW-12" value="初始化顶点自身维度为7 本地化参数维度为6，因为旋转是用四元数表示的，虽然有四个参数，但是其自由度为3" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="645" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5Aed3e3U2DgfZNWrXDW-13" value="重写了四元数的加法，父类中为向量加法" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="670" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5Aed3e3U2DgfZNWrXDW-15" value="返回顶点的名称为VertexPose" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="695" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
