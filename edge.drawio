@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T13:17:10.583Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="c2RnXSWP0P28CAKN9o3F" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T13:20:26.553Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="sgqnnOz2NjjRfCIpzF39" version="24.4.0" type="github">
   <diagram name="第 1 页" id="PMOZxPjxoQlB0c3pLiQU">
-    <mxGraphModel dx="1422" dy="564" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="866" dy="671" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XembUIJC6HjosPzbzxdy-1" value="&lt;i&gt;Edge&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="30" width="253" height="788" as="geometry" />
+          <mxGeometry x="986" y="9" width="253" height="788" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-2" value="#id_: unsigned long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-1">
           <mxGeometry y="26" width="253" height="26" as="geometry" />
@@ -98,96 +98,96 @@
           <mxGeometry y="762" width="253" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-69" value="边id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1092.5" y="50" width="40" height="30" as="geometry" />
+          <mxGeometry x="1238.5" y="29" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-70" value="各顶点类型信息，用于debug" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1093" y="108" width="172" height="27" as="geometry" />
+          <mxGeometry x="1239" y="87" width="172" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-71" value="该边对应的顶点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1091.5" y="134" width="103" height="27" as="geometry" />
+          <mxGeometry x="1237.5" y="113" width="103" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-73" value="观测信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1093.5" y="239" width="67" height="27" as="geometry" />
+          <mxGeometry x="1239.5" y="218" width="67" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-74" value="设置一个顶点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1092.5" y="353" width="91" height="27" as="geometry" />
+          <mxGeometry x="1238.5" y="332" width="91" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-75" value="返回第i个顶点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1093.5" y="405" width="94" height="27" as="geometry" />
+          <mxGeometry x="1239.5" y="384" width="94" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-76" value="返回所有顶点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1093.5" y="433" width="91" height="27" as="geometry" />
+          <mxGeometry x="1239.5" y="412" width="91" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-80" value="返回信息矩阵" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1096.5" y="666" width="91" height="27" as="geometry" />
+          <mxGeometry x="1242.5" y="645" width="91" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-89" value="检查边的信息是否全部设置" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1099" y="738" width="163" height="27" as="geometry" />
+          <mxGeometry x="1245" y="717" width="163" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-117" value="在问题中的边id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1092.5" y="80" width="100" height="30" as="geometry" />
+          <mxGeometry x="1238.5" y="59" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-118" value="残差" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1092" y="160" width="43" height="27" as="geometry" />
+          <mxGeometry x="1238" y="139" width="43" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-119" value="雅可比 每个雅可比维度是 residual x vertex[i]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1093" y="186" width="254" height="27" as="geometry" />
+          <mxGeometry x="1239" y="165" width="254" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-120" value="信息矩阵" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1091.5" y="213" width="67" height="27" as="geometry" />
+          <mxGeometry x="1237.5" y="192" width="67" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-121" value="自动分配雅可比空间" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1096" y="270" width="127" height="27" as="geometry" />
+          <mxGeometry x="1242" y="249" width="127" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-122" value="返回id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1094" y="322" width="52" height="27" as="geometry" />
+          <mxGeometry x="1240" y="301" width="52" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-123" value="设置一些顶点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1092" y="381" width="91" height="27" as="geometry" />
+          <mxGeometry x="1238" y="360" width="91" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-124" value="返回关联顶点个数" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="456" width="115" height="27" as="geometry" />
+          <mxGeometry x="1241" y="435" width="115" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-125" value="返回边的类型信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="482" width="115" height="27" as="geometry" />
+          <mxGeometry x="1241" y="461" width="115" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-126" value="计算残差" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="506" width="67" height="27" as="geometry" />
+          <mxGeometry x="1241" y="485" width="67" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-127" value="计算雅可比" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="531" width="79" height="27" as="geometry" />
+          <mxGeometry x="1241" y="510" width="79" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-128" value="计算平方误差" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1093.5" y="558" width="91" height="27" as="geometry" />
+          <mxGeometry x="1239.5" y="537" width="91" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-129" value="返回残差" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="582" width="67" height="27" as="geometry" />
+          <mxGeometry x="1241" y="561" width="67" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-130" value="返回雅可比" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1095.5" y="610" width="79" height="27" as="geometry" />
+          <mxGeometry x="1241.5" y="589" width="79" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-131" value="设置信息矩阵" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="637" width="91" height="27" as="geometry" />
+          <mxGeometry x="1241" y="616" width="91" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-132" value="设置观测信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1096.5" y="691" width="91" height="27" as="geometry" />
+          <mxGeometry x="1242.5" y="670" width="91" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-133" value="返回观测信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1097" y="713" width="91" height="27" as="geometry" />
+          <mxGeometry x="1243" y="692" width="91" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="XembUIJC6HjosPzbzxdy-137" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.407;entryY=1.125;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="XembUIJC6HjosPzbzxdy-137" value="" style="endArrow=block;html=1;rounded=0;entryX=0.407;entryY=1.125;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;endFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="847" y="948" as="sourcePoint" />
-            <mxPoint x="918.971" y="819.25" as="targetPoint" />
+            <mxPoint x="993" y="927" as="sourcePoint" />
+            <mxPoint x="1064.971" y="798.25" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="847" y="948" />
-              <mxPoint x="847" y="886" />
-              <mxPoint x="919" y="886" />
+              <mxPoint x="993" y="927" />
+              <mxPoint x="993" y="865" />
+              <mxPoint x="1065" y="865" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-138" value="&lt;i&gt;EdgeReprojection&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="949" width="253" height="268" as="geometry" />
+          <mxGeometry x="876" y="928" width="253" height="268" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-143" value="-qic: Qd" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-138">
           <mxGeometry y="26" width="253" height="26" as="geometry" />
@@ -220,16 +220,62 @@
           <mxGeometry y="242" width="253" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-169" value="视觉重投影误差：&lt;div&gt;三元边&lt;br&gt;顶点分别为：&lt;/div&gt;&lt;div&gt;路标点的逆深度InveseDepth&lt;br&gt;第一次观测到该路标点的source Camera的位姿T_World_From_Body1&lt;br&gt;观测到该路标点的measurement Camera的位姿&lt;span style=&quot;background-color: initial;&quot;&gt;T_World_From_Body2&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="997.5" y="908" width="391" height="99" as="geometry" />
+          <mxGeometry x="1143.5" y="887" width="391" height="99" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-170" value="返回边的类型信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="983" y="1113" width="115" height="27" as="geometry" />
+          <mxGeometry x="1129" y="1092" width="115" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-171" value="计算残差" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="983" y="1141" width="67" height="27" as="geometry" />
+          <mxGeometry x="1129" y="1120" width="67" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-172" value="计算雅可比" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="983" y="1170" width="79" height="27" as="geometry" />
+          <mxGeometry x="1129" y="1149" width="79" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-173" value="&lt;i&gt;EdgeReprojectionXYZ&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1601" y="928" width="253" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-174" value="-qic: Qd" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="26" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-175" value="-tic: Vec3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="52" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-176" value="-pts_i_: Vec3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="78" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-177" value="-pts_j_: Vec3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="104" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-178" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="130" width="253" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-179" value="EdgeReprojection()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="138" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-180" value="TypeInfo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="164" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-181" value="ComputeResidual()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="190" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-182" value="ComputeJacobians()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="216" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-183" value="SetTranslationImuFromCamera()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-173">
+          <mxGeometry y="242" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-184" value="视觉重投影误差：&lt;div&gt;二元边&lt;br&gt;顶点分别为：&lt;/div&gt;&lt;div&gt;路标点的世界坐标系XYZ&lt;/div&gt;&lt;div&gt;观测到该路标点的source Camera的位姿T_World_From_Body1&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="887" width="353" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-185" value="" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1725" y="927" as="sourcePoint" />
+            <mxPoint x="1158" y="798" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1725" y="862" />
+              <mxPoint x="1158" y="862" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
