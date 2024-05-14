@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T07:23:40.078Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="gP0xxi7CJU95sjqPT4sn" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T07:25:02.962Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="90c3vRhYUhlK6i3CU1xI" version="24.4.0" type="github">
   <diagram name="第 1 页" id="Om_0ez-Mg7cLswbmVXPj">
     <mxGraphModel dx="595" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
           <mxGeometry x="1010" y="140" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-29" value="&lt;i&gt;ProblemType&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="230" width="170" height="86" as="geometry" />
+          <mxGeometry x="1050" y="250" width="170" height="86" as="geometry" />
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-49" value="SLAM_PROBLEM" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-29">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-51" value="GENERIC_PROBLEM" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-29">
           <mxGeometry y="60" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="05y2BKctw2ABKMbbaYBs-54" value="用于区分hessian矩阵是稀疏的还是稠密的" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="290" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
