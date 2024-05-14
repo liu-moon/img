@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T07:33:50.919Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8IJoNHVjg4c9y1wkCg6x" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T07:36:24.825Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-S0YAuEowuINA46eILUP" version="24.4.0" type="github">
   <diagram name="第 1 页" id="Om_0ez-Mg7cLswbmVXPj">
     <mxGraphModel dx="161" dy="392" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,22 +43,22 @@
         <mxCell id="05y2BKctw2ABKMbbaYBs-77" value="-err_prior_: VecX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="312" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="05y2BKctw2ABKMbbaYBs-76" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
+        <mxCell id="05y2BKctw2ABKMbbaYBs-76" value="-H_pp_schur_: MatXX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="338" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="05y2BKctw2ABKMbbaYBs-75" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
+        <mxCell id="05y2BKctw2ABKMbbaYBs-75" value="-b_pp_schur_: VecX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="364" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="05y2BKctw2ABKMbbaYBs-74" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
+        <mxCell id="05y2BKctw2ABKMbbaYBs-74" value="-H_pp_: MatXX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="390" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="05y2BKctw2ABKMbbaYBs-73" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
+        <mxCell id="05y2BKctw2ABKMbbaYBs-73" value="-b_pp_: VecX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="416" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="05y2BKctw2ABKMbbaYBs-71" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
+        <mxCell id="05y2BKctw2ABKMbbaYBs-71" value="-H_ll_: MatXX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="442" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="05y2BKctw2ABKMbbaYBs-28" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
+        <mxCell id="05y2BKctw2ABKMbbaYBs-28" value="-b_ll_: VecX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="468" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-70" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
@@ -108,6 +108,12 @@
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-59" value="先验部分信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1010" y="262" width="91" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="05y2BKctw2ABKMbbaYBs-79" value="SBA的Pose部分" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="370" width="106" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="05y2BKctw2ABKMbbaYBs-80" value="Hessian 的 Landmark 和 pose 部分" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="418" width="206" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
