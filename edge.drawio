@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T13:22:46.543Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="sDzpR9sI-dtkXDAROp_k" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T13:25:04.180Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="9S530C1Ub_C4iRQ_aZq2" version="24.4.0" type="github">
   <diagram name="第 1 页" id="PMOZxPjxoQlB0c3pLiQU">
     <mxGraphModel dx="866" dy="671" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,6 +273,33 @@
               <mxPoint x="1158" y="862" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-186" value="&lt;i&gt;EdgeReprojectionPoseOnly&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="926" width="253" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-187" value="-landmark_world_: Vec3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-186">
+          <mxGeometry y="26" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-189" value="-K_: Mat33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-186">
+          <mxGeometry y="52" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-190" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XembUIJC6HjosPzbzxdy-186">
+          <mxGeometry y="78" width="253" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-191" value="EdgeReprojectionPoseOnly()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-186">
+          <mxGeometry y="86" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-192" value="TypeInfo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-186">
+          <mxGeometry y="112" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-193" value="ComputeResidual()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-186">
+          <mxGeometry y="138" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-194" value="ComputeJacobians()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-186">
+          <mxGeometry y="164" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XembUIJC6HjosPzbzxdy-196" value="仅计算重投影pose的例子" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="914" width="153" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
