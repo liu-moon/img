@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T07:27:50.831Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="SkBhK7dJBPFjyRoEYPt8" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T07:29:22.153Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Oa5P17xxarEVsFswXSHT" version="24.4.0" type="github">
   <diagram name="第 1 页" id="Om_0ez-Mg7cLswbmVXPj">
-    <mxGraphModel dx="161" dy="392" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="161" dy="374" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,10 +25,10 @@
         <mxCell id="05y2BKctw2ABKMbbaYBs-21" value="-Hessian_: MatXX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="156" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="05y2BKctw2ABKMbbaYBs-22" value="-currentLambda_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
+        <mxCell id="05y2BKctw2ABKMbbaYBs-22" value="-b_:&amp;nbsp;VecX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="182" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="05y2BKctw2ABKMbbaYBs-23" value="-currentLambda_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
+        <mxCell id="05y2BKctw2ABKMbbaYBs-23" value="-delta_x_:&amp;nbsp;VecX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
           <mxGeometry y="208" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-26" value="-currentLambda_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-1">
@@ -80,7 +80,7 @@
           <mxGeometry y="606" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-29" value="&lt;i&gt;ProblemType&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="250" width="170" height="86" as="geometry" />
+          <mxGeometry x="1193" y="123" width="170" height="86" as="geometry" />
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-49" value="SLAM_PROBLEM" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="05y2BKctw2ABKMbbaYBs-29">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -92,13 +92,16 @@
           <mxGeometry y="60" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-54" value="用于区分hessian矩阵是稀疏的还是稠密的" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="290" width="240" height="30" as="geometry" />
+          <mxGeometry x="1373" y="163" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-55" value="LM 迭代退出阈值条件" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1011" y="106" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="05y2BKctw2ABKMbbaYBs-56" value="控制 Lambda 缩放大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1011" y="131" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="05y2BKctw2ABKMbbaYBs-57" value="整个信息矩阵" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="187" width="91" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
