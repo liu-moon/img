@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T12:49:55.936Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-1TefC886-L8yTae-AXU" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T12:50:19.529Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="b8VQhoeDn9wbBJl8gjno" version="24.4.0" type="github">
   <diagram name="第 1 页" id="PMOZxPjxoQlB0c3pLiQU">
     <mxGraphModel dx="-381" dy="486" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
         <mxCell id="XembUIJC6HjosPzbzxdy-50" value="Observation()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-1">
           <mxGeometry y="684" width="253" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="XembUIJC6HjosPzbzxdy-51" value="RollbackStates()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-1">
+        <mxCell id="XembUIJC6HjosPzbzxdy-51" value="CheckValid()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-1">
           <mxGeometry y="710" width="253" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-52" value="ComputePrior()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XembUIJC6HjosPzbzxdy-1">
@@ -151,8 +151,8 @@
         <mxCell id="XembUIJC6HjosPzbzxdy-80" value="返回信息矩阵" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1096.5" y="666" width="91" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="XembUIJC6HjosPzbzxdy-89" value="确定求解问题类型" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1093.5" y="842" width="115" height="27" as="geometry" />
+        <mxCell id="XembUIJC6HjosPzbzxdy-89" value="检查边的信息是否全部设置" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="738" width="163" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XembUIJC6HjosPzbzxdy-90" value="添加顶点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1095" y="899" width="67" height="27" as="geometry" />
