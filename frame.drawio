@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T02:41:10.305Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.0" etag="OwK3joWGSTJPIz42tt-8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T02:43:23.991Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zGWgMfd6oJVVrhPNQzKp" version="24.4.2" type="github">
   <diagram name="第 1 页" id="YP4Nme6LRSM6nn8LX1hJ">
-    <mxGraphModel>
+    <mxGraphModel dx="-447" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yGB9YBRApqDcr1TCg3E9-1" value="&lt;i&gt;Frame&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="20" width="253" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="yGB9YBRApqDcr1TCg3E9-2" value="+Rwc: Matrix3d" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yGB9YBRApqDcr1TCg3E9-1">
+          <mxGeometry y="26" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yGB9YBRApqDcr1TCg3E9-3" value="+qwc: Quaterniond" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yGB9YBRApqDcr1TCg3E9-1">
+          <mxGeometry y="52" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yGB9YBRApqDcr1TCg3E9-4" value="+twc: Vector3d" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yGB9YBRApqDcr1TCg3E9-1">
+          <mxGeometry y="78" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yGB9YBRApqDcr1TCg3E9-12" value="+featurePerId: unordered_map&amp;lt;int,Vector3d&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yGB9YBRApqDcr1TCg3E9-1">
+          <mxGeometry y="104" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yGB9YBRApqDcr1TCg3E9-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="yGB9YBRApqDcr1TCg3E9-1">
+          <mxGeometry y="130" width="253" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yGB9YBRApqDcr1TCg3E9-11" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yGB9YBRApqDcr1TCg3E9-1">
+          <mxGeometry y="138" width="253" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
